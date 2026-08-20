@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>High Quality Frame Extractor</title>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jszip/3.10.1/jszip.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/FileSaver.js/2.0.5/FileSaver.min.js"></script>
+    <style>
+        body { font-family: sans-serif; background: #111; color: #fff; display: flex; flex-direction: column; align-items: center; justify-content: center; height: 100vh; margin: 0; }
+        .box { border: 2px dashed #444; padding: 40px; text-align: center; border-radius: 10px; background: #222; max-w-md; }
+        #status { margin-top: 20px; font-weight: bold; color: #4ade80; }
+        input[type="file"] { display: none; }
+        label { background: #b48a47; padding: 10px 20px; border-radius: 5px; cursor: pointer; font-weight: bold; }
+        canvas { display: none; }
+    </style>
+</head>
+<body>
+    <div class="box">
+        <h2>High Quality Frame Extractor</h2>
+        <p>Select your Building Construction MP4 to get 120 Ultra HD frames!</p>
+        <label>
+            Select MP4 Video
+            <input type="file" id="videoFile" accept="video/mp4,video/webm">
+        </label>
+        <div id="status"></div>
+    </div>
+    <canvas id="canvas"></canvas>
+
+    <script>
+        const input = document.getElementById('videoFile');
+        const status = document.getElementById('status');
+        const canvas = document.getElementById('canvas');
+        const ctx = canvas.getContext('2d');
+
+        input.addEventListener('change', async (e) => {
+            const file = e.target.files[0];
+            if (!file) return;
+
+            status.innerText = "Loading video in high quality...";
+            const video = document.createElement('video');
+            video.src = URL.createObjectURL(file);
+            video.muted = true;
+            
+            await new Promise(r => {
+                video.onloadedmetadata = r;
+            });
+
+            // Set canvas to exact video resolution for perfect quality!
+            canvas.width = video.videoWidth;
+            canvas.height = video.videoHeight;
+
+            const duration = video.duration;
+            const frames = 120;
+            const interval = duration / frames;
+
+            const zip = new JSZip();
+            const imgFolder = zip.folder("high_quality_frames");
+
+            status.innerText = "Extracting 120 High Quality Frames... Please wait.";
+
+            for (let i = 1; i <= frames; i++) {
+                video.currentTime = Math.min((i - 1) * interval, duration - 0.1);
+                
+                await new Promise(r => {
+                    video.onseeked = r;
+                });
+
+                ctx.drawImage(video, 0, 0, canvas.width, canvas.height);
+                
+                // Get high quality JPG
+                const dataUrl = canvas.toDataURL('image/jpeg', 1.0);
+                const base64Data = dataUrl.split(',')[1];
+                
+                imgFolder.file(`${i}.jpg`, base64Data, {base64: true});
+                status.innerText = `Extracting frames: ${i} / 120`;
+            }
+
+            status.innerText = "Zipping frames... Almost done!";
+            
+            const content = await zip.generateAsync({type: "blob"});
+            saveAs(content, "high_quality_frames.zip");
+            
+            status.innerText = "Done! Extract the ZIP and put the 120 images in public/images/construction/";
+        });
+    </script>
+</body>
+</html>
