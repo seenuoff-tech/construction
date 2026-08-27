@@ -55,7 +55,7 @@ export default function Navbar() {
           </div>
         </div>
         
-        <Link href="#" className="text-sm font-semibold tracking-wide text-gray-800 hover:text-gold-500 transition-colors">Plots</Link>
+        <Link href="/plots" className="text-sm font-semibold tracking-wide text-gray-800 hover:text-gold-500 transition-colors">Plots</Link>
         <Link href="/about" className="text-sm font-semibold tracking-wide text-gray-800 hover:text-gold-500 transition-colors">About Us</Link>
       </div>
 
