@@ -59,10 +59,10 @@ export default function ProcessSection() {
             whileInView={{ opacity: 1, y: 0 }}
             viewport={{ once: true }}
             transition={{ delay: 0.1 }}
-            className="text-5xl md:text-7xl font-serif text-white tracking-tight leading-tight max-w-4xl"
+            className="text-5xl md:text-7xl font-semibold text-white tracking-tight leading-tight max-w-4xl"
           >
             Six steps. <br className="hidden md:block" />
-            <span className="text-transparent bg-clip-text bg-gradient-to-r from-blue-400 via-emerald-400 to-cyan-400 italic">Zero surprises.</span>
+            <span className="text-white italic">Zero surprises.</span>
           </motion.h2>
         </div>
 
@@ -75,21 +75,19 @@ export default function ProcessSection() {
               whileInView={{ opacity: 1, y: 0 }}
               viewport={{ once: true, margin: "-10%" }}
               transition={{ delay: index * 0.1, duration: 0.6, ease: "easeOut" }}
-              className="group relative p-[1px] rounded-3xl overflow-hidden bg-gradient-to-b from-white/10 to-transparent hover:from-emerald-500/50 hover:to-blue-500/50 transition-colors duration-500"
+              className="relative p-[1px] rounded-3xl overflow-hidden bg-gradient-to-b from-white/10 to-transparent transition-colors duration-500"
             >
-              <div className="absolute inset-0 bg-gradient-to-br from-emerald-500/10 to-blue-500/10 opacity-0 group-hover:opacity-100 transition-opacity duration-500" />
-              
               <div className="relative h-full bg-[#0a0a0a] rounded-3xl p-8 md:p-10 flex flex-col justify-between overflow-hidden">
                 {/* Large watermark number */}
-                <div className="absolute -bottom-4 -right-4 text-[120px] font-bold text-white/[0.02] group-hover:text-white/[0.05] transition-colors duration-500 select-none pointer-events-none leading-none">
+                <div className="absolute -bottom-4 -right-4 text-[120px] font-bold text-white/[0.02] select-none pointer-events-none leading-none">
                   {step.num}
                 </div>
 
                 <div>
-                  <div className="w-12 h-12 rounded-full border border-white/10 bg-white/5 flex items-center justify-center text-emerald-400 font-medium mb-8 group-hover:scale-110 group-hover:bg-emerald-500/10 group-hover:border-emerald-500/30 transition-all duration-300">
+                  <div className="w-12 h-12 rounded-full border border-white/10 bg-white/5 flex items-center justify-center text-white font-medium mb-8">
                     {step.num}
                   </div>
-                  <h3 className="text-2xl font-semibold text-white mb-4 group-hover:text-emerald-400 transition-colors duration-300">
+                  <h3 className="text-2xl font-semibold text-white mb-4">
                     {step.title}
                   </h3>
                   <p className="text-gray-400 text-lg leading-relaxed relative z-10">

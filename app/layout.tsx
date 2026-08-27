@@ -4,6 +4,7 @@ import './globals.css';
 import Navbar from '@/components/Navbar';
 import FloatingContact from '@/components/FloatingContact';
 import Footer from '@/components/Footer';
+import EntryPopup from '@/components/EntryPopup';
 
 const outfit = Outfit({ subsets: ['latin'], variable: '--font-outfit' });
 
@@ -24,6 +25,7 @@ export default function RootLayout({
         {children}
         <Footer />
         <FloatingContact />
+        <EntryPopup />
       </body>
     </html>
   );
