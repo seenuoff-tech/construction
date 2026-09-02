@@ -37,7 +37,7 @@ export default function Navbar() {
         </Link>
       </div>
 
-      {/* CENTER: Desktop Navigation Menu */}
+        {/* CENTER: Desktop Navigation Menu */}
       <div className="hidden lg:flex flex-1 justify-center space-x-10 items-center">
         <div className="relative group">
           <span className="text-sm font-semibold tracking-wide text-gray-800 hover:text-gold-500 transition-colors cursor-pointer py-4 flex items-center">
@@ -45,8 +45,8 @@ export default function Navbar() {
             <ChevronDown className="w-4 h-4 ml-1 opacity-60" />
           </span>
           <div className="absolute top-full mt-0 left-0 hidden group-hover:flex flex-col bg-white p-4 min-w-[200px] border border-gray-100 rounded-b shadow-xl z-50">
-            <Link href="#" className="block text-gray-700 hover:text-gold-500 py-2 text-sm font-medium transition-colors">New Launches</Link>
-            <Link href="#" className="block text-gray-700 hover:text-gold-500 py-2 text-sm font-medium transition-colors">On going</Link>
+            <Link href="/apartments/new-launches" className="block text-gray-700 hover:text-gold-500 py-2 text-sm font-medium transition-colors">New Launches</Link>
+            <Link href="/apartments/ongoing" className="block text-gray-700 hover:text-gold-500 py-2 text-sm font-medium transition-colors">On going</Link>
             <Link href="#" className="block text-gray-700 hover:text-gold-500 py-2 text-sm font-medium transition-colors">Ready to move</Link>
           </div>
         </div>
@@ -57,8 +57,8 @@ export default function Navbar() {
             <ChevronDown className="w-4 h-4 ml-1 opacity-60" />
           </span>
           <div className="absolute top-full mt-0 left-0 hidden group-hover:flex flex-col bg-white p-4 min-w-[200px] border border-gray-100 rounded-b shadow-xl z-50">
-            <Link href="#" className="block text-gray-700 hover:text-gold-500 py-2 text-sm font-medium transition-colors">New launches</Link>
-            <Link href="#" className="block text-gray-700 hover:text-gold-500 py-2 text-sm font-medium transition-colors">Ongoing</Link>
+            <Link href="/villas/new-launches" className="block text-gray-700 hover:text-gold-500 py-2 text-sm font-medium transition-colors">New launches</Link>
+            <Link href="/villas/ongoing" className="block text-gray-700 hover:text-gold-500 py-2 text-sm font-medium transition-colors">Ongoing</Link>
             <Link href="#" className="block text-gray-700 hover:text-gold-500 py-2 text-sm font-medium transition-colors">Ready to move</Link>
           </div>
         </div>
@@ -155,8 +155,8 @@ export default function Navbar() {
                   </button>
                   {openAccordion === 'apartments' && (
                     <div className="flex flex-col bg-gray-50 border-b border-gray-100">
-                      <Link href="#" onClick={() => setIsMenuOpen(false)} className="px-10 py-3 text-base text-gray-600 border-b border-gray-100/50">New Launches</Link>
-                      <Link href="#" onClick={() => setIsMenuOpen(false)} className="px-10 py-3 text-base text-gray-600 border-b border-gray-100/50">On going</Link>
+                      <Link href="/apartments/new-launches" onClick={() => setIsMenuOpen(false)} className="px-10 py-3 text-base text-gray-600 border-b border-gray-100/50">New Launches</Link>
+                      <Link href="/apartments/ongoing" onClick={() => setIsMenuOpen(false)} className="px-10 py-3 text-base text-gray-600 border-b border-gray-100/50">On going</Link>
                       <Link href="#" onClick={() => setIsMenuOpen(false)} className="px-10 py-3 text-base text-gray-600">Ready to move</Link>
                     </div>
                   )}
@@ -173,8 +173,8 @@ export default function Navbar() {
                   </button>
                   {openAccordion === 'villas' && (
                     <div className="flex flex-col bg-gray-50 border-b border-gray-100">
-                      <Link href="#" onClick={() => setIsMenuOpen(false)} className="px-10 py-3 text-base text-gray-600 border-b border-gray-100/50">New launches</Link>
-                      <Link href="#" onClick={() => setIsMenuOpen(false)} className="px-10 py-3 text-base text-gray-600 border-b border-gray-100/50">Ongoing</Link>
+                      <Link href="/villas/new-launches" onClick={() => setIsMenuOpen(false)} className="px-10 py-3 text-base text-gray-600 border-b border-gray-100/50">New launches</Link>
+                      <Link href="/villas/ongoing" onClick={() => setIsMenuOpen(false)} className="px-10 py-3 text-base text-gray-600 border-b border-gray-100/50">Ongoing</Link>
                       <Link href="#" onClick={() => setIsMenuOpen(false)} className="px-10 py-3 text-base text-gray-600">Ready to move</Link>
                     </div>
                   )}

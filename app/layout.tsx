@@ -5,6 +5,7 @@ import Navbar from '@/components/Navbar';
 import FloatingContact from '@/components/FloatingContact';
 import Footer from '@/components/Footer';
 import EntryPopup from '@/components/EntryPopup';
+import AdminHider from '@/components/AdminHider';
 
 const outfit = Outfit({ subsets: ['latin'], variable: '--font-outfit' });
 
@@ -21,11 +22,15 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body className={`${outfit.variable} font-sans bg-black text-white antialiased`}>
-        <Navbar />
+        <AdminHider>
+          <Navbar />
+        </AdminHider>
         {children}
-        <Footer />
-        <FloatingContact />
-        <EntryPopup />
+        <AdminHider>
+          <FloatingContact />
+          <Footer />
+          <EntryPopup />
+        </AdminHider>
       </body>
     </html>
   );
