@@ -1,0 +1,1102 @@
+[
+  {
+    "name": "UR CITY OF JOY",
+    "location": "THIRUMAZHISAI",
+    "type": "2,3",
+    "size": "881 -1036",
+    "approvals": "RERA CMDA",
+    "launch": "PRELAUNCH",
+    "handover": "RTM /PRE - LAUNCH",
+    "category": "new-launch"
+  },
+  {
+    "name": "RADIANCE NOOMBAL",
+    "location": "NOOMBAL",
+    "type": "2,2.5,3,4",
+    "size": "954 - 2127",
+    "approvals": "UNDER PROCESS",
+    "launch": "PRELAUNCH",
+    "handover": "PRELAUNCH",
+    "category": "new-launch"
+  },
+  {
+    "name": "BRIGADE STELLARIS",
+    "location": "VELACHERY",
+    "type": "3,4,5",
+    "size": "2033-6337",
+    "approvals": "UNDER PROCESS",
+    "launch": "PRELAUNCH",
+    "handover": "PRELAUNCH",
+    "category": "new-launch"
+  },
+  {
+    "name": "GTB RISINGPALMS",
+    "location": "VALARPURAM,POONAMALLE",
+    "type": "1,2",
+    "size": "551 -805",
+    "approvals": "UNDER PROCESS",
+    "launch": "PRELAUNCH",
+    "handover": "2027",
+    "category": "new-launch"
+  },
+  {
+    "name": "DRA RICHBURG",
+    "location": "EAST THAMBARAM",
+    "type": "2,3,4",
+    "size": "938-1768",
+    "approvals": "PRELAUNCH",
+    "launch": "PRELAUNCH",
+    "handover": "2029",
+    "category": "new-launch"
+  },
+  {
+    "name": "STEPSTONE VIVAA",
+    "location": "MOGAPPAIR",
+    "type": "3,4",
+    "size": "1600 -2200",
+    "approvals": "PRELAUNCH",
+    "launch": "PRELAUNCH",
+    "handover": "2028",
+    "category": "new-launch"
+  },
+  {
+    "name": "MP TNAGAR",
+    "location": "T NAGAR",
+    "type": "3",
+    "size": "",
+    "approvals": "PRELAUNCH",
+    "launch": "PRELAUNCH",
+    "handover": "2027",
+    "category": "new-launch"
+  },
+  {
+    "name": "MP VALASARAVAKKAM",
+    "location": "VALASARAVAKKAM",
+    "type": "2,3",
+    "size": "1012-1715",
+    "approvals": "PRELAUNCH",
+    "launch": "PRELAUNCH",
+    "handover": "2028",
+    "category": "new-launch"
+  },
+  {
+    "name": "MP RADIAL",
+    "location": "200 RADIAL ROAD PALLAVARAM TO THORAIPAKKAM",
+    "type": "2,3",
+    "size": "",
+    "approvals": "PRELAUNCH",
+    "launch": "PRELAUNCH",
+    "handover": "2028",
+    "category": "new-launch"
+  },
+  {
+    "name": "TRAVENTURE LAKSHMI",
+    "location": "PERAMBUR",
+    "type": "3",
+    "size": "1447",
+    "approvals": "CMDA RERA",
+    "launch": "PRELAUNCH",
+    "handover": "2026",
+    "category": "new-launch"
+  },
+  {
+    "name": "TRAVENTURE MIRACLE GARDEN",
+    "location": "PORUR",
+    "type": "3",
+    "size": "1159",
+    "approvals": "CMDA RERA",
+    "launch": "PRELAUNCH",
+    "handover": "2026",
+    "category": "new-launch"
+  },
+  {
+    "name": "TRAVENTURE THARA",
+    "location": "SALIGRAMAM",
+    "type": "3",
+    "size": "1543-2057",
+    "approvals": "CMDA RERA",
+    "launch": "PRELAUNCH",
+    "handover": "2027",
+    "category": "new-launch"
+  },
+  {
+    "name": "TRAVENTURE DIVINE",
+    "location": "VADAPALANI",
+    "type": "3",
+    "size": "1526 -2360",
+    "approvals": "CMDA RERA",
+    "launch": "PRELAUNCH",
+    "handover": "2028",
+    "category": "new-launch"
+  },
+  {
+    "name": "TRAVENTURE ALTIUS",
+    "location": "ASHOK NAGAR",
+    "type": "2,3",
+    "size": "1070-1673",
+    "approvals": "CMDA RERA",
+    "launch": "PRELAUNCH",
+    "handover": "24 MONTHS FROM LAUNCH",
+    "category": "new-launch"
+  },
+  {
+    "name": "TRAVENTURE PARK MANOR",
+    "location": "VIRUGAMBAKAM",
+    "type": "3",
+    "size": "1781-1876",
+    "approvals": "CMDA RERA",
+    "launch": "PRELAUNCH",
+    "handover": "2027",
+    "category": "new-launch"
+  },
+  {
+    "name": "TRAVENTURE MISHVA",
+    "location": "PORUR",
+    "type": "2.5",
+    "size": "1381 -1417",
+    "approvals": "CMDA RERA",
+    "launch": "PRELAUNCH",
+    "handover": "2027",
+    "category": "new-launch"
+  },
+  {
+    "name": "SIS MARINA",
+    "location": "MADURAVOYAL",
+    "type": "3,4",
+    "size": "1500-2574",
+    "approvals": "UNDER PROCESS",
+    "launch": "PRE LAUNCH",
+    "handover": "",
+    "category": "new-launch"
+  },
+  {
+    "name": "JAINS AADHYA BHARATH",
+    "location": "KORATTUR",
+    "type": "2,3",
+    "size": "933-1489",
+    "approvals": "CMDA RERA",
+    "launch": "PRE LAUNCH",
+    "handover": "2029",
+    "category": "new-launch"
+  },
+  {
+    "name": "BRIGADE VANAGARAM",
+    "location": "VANAGARAM",
+    "type": "2,3",
+    "size": "1140-1960",
+    "approvals": "UNDER PROCESS",
+    "launch": "PRE LAUNCH",
+    "handover": "2030",
+    "category": "new-launch"
+  },
+  {
+    "name": "MP DIVINE",
+    "location": "KUNDRATHUR",
+    "type": "2,3",
+    "size": "950 -1196",
+    "approvals": "UNDER PROCESS",
+    "launch": "PRELAUNCH",
+    "handover": "2028",
+    "category": "new-launch"
+  },
+  {
+    "name": "PURVANKARA  SOMERSET",
+    "location": "GUINDY",
+    "type": "",
+    "size": "",
+    "approvals": "RERA",
+    "launch": "",
+    "handover": "RTM",
+    "category": "ongoing"
+  },
+  {
+    "name": "PURVANKARA WINDERMERE LAKE VISTA",
+    "location": "MEDAVAKKAM",
+    "type": "",
+    "size": "",
+    "approvals": "RERA",
+    "launch": "",
+    "handover": "2026 & 2027",
+    "category": "ongoing"
+  },
+  {
+    "name": "PROVIDENT BAY SCAPE",
+    "location": "KELAMBAKKAM",
+    "type": "",
+    "size": "",
+    "approvals": "RERA",
+    "launch": "",
+    "handover": "2027",
+    "category": "ongoing"
+  },
+  {
+    "name": "NAVINS VIIJAYA SREE",
+    "location": "ANNA NAGAR",
+    "type": "",
+    "size": "",
+    "approvals": "RERA",
+    "launch": "",
+    "handover": "2028 FEB",
+    "category": "ongoing"
+  },
+  {
+    "name": "NAVINS  STARWOOD",
+    "location": "MEDAVAKKAM",
+    "type": "",
+    "size": "",
+    "approvals": "RERA",
+    "launch": "",
+    "handover": "RTM",
+    "category": "ongoing"
+  },
+  {
+    "name": "NAVINS MAYURA GARDENS",
+    "location": "VALASARAVAKKAM",
+    "type": "",
+    "size": "",
+    "approvals": "RERA",
+    "launch": "",
+    "handover": "2028",
+    "category": "ongoing"
+  },
+  {
+    "name": "NAVINS HILLVIEW AVENUE",
+    "location": "THIRUMUDIVAKKAM",
+    "type": "",
+    "size": "",
+    "approvals": "RERA",
+    "launch": "",
+    "handover": "RTM",
+    "category": "ongoing"
+  },
+  {
+    "name": "NAVINS RP ENCLAVE",
+    "location": "ROYAPURAM",
+    "type": "",
+    "size": "",
+    "approvals": "RERA",
+    "launch": "",
+    "handover": "2026 SEP",
+    "category": "ongoing"
+  },
+  {
+    "name": "NAVINS AUM GRIHA",
+    "location": "NUNGAMBAKKAM",
+    "type": "",
+    "size": "",
+    "approvals": "RERA",
+    "launch": "",
+    "handover": "2028 JAN",
+    "category": "ongoing"
+  },
+  {
+    "name": "VRX TERRACE",
+    "location": "ECR",
+    "type": "",
+    "size": "",
+    "approvals": "DTCP / RERA",
+    "launch": "",
+    "handover": "2027",
+    "category": "ongoing"
+  },
+  {
+    "name": "VRX MAGNA",
+    "location": "THIRUMAZHISAI",
+    "type": "",
+    "size": "",
+    "approvals": "DTCP / RERA",
+    "launch": "",
+    "handover": "2027",
+    "category": "ongoing"
+  },
+  {
+    "name": "SHRIRAM PUDHIYA CHENNAI",
+    "location": "THIRUMAZHISAI",
+    "type": "",
+    "size": "",
+    "approvals": "RERA",
+    "launch": "",
+    "handover": "2028",
+    "category": "ongoing"
+  },
+  {
+    "name": "SHRIRAM SANKARI THE VIEW",
+    "location": "GUDUVANCHERY",
+    "type": "",
+    "size": "",
+    "approvals": "RERA",
+    "launch": "",
+    "handover": "UNDER CONSTRUCTION",
+    "category": "ongoing"
+  },
+  {
+    "name": "UR THE  LAKES EDGE",
+    "location": "MADHAVARAM",
+    "type": "",
+    "size": "",
+    "approvals": "RERA CMDA",
+    "launch": "",
+    "handover": "2027",
+    "category": "ongoing"
+  },
+  {
+    "name": "UR SPRING TIDE",
+    "location": "MARAIMALAI NAGAR",
+    "type": "",
+    "size": "",
+    "approvals": "RERA DTCP",
+    "launch": "",
+    "handover": "2027",
+    "category": "ongoing"
+  },
+  {
+    "name": "UR REVOLUTION ONE",
+    "location": "PADUR OMR",
+    "type": "",
+    "size": "",
+    "approvals": "RERA DTCP",
+    "launch": "",
+    "handover": "RTM",
+    "category": "ongoing"
+  },
+  {
+    "name": "UR WORLD OF JOY",
+    "location": "PADUR OMR",
+    "type": "",
+    "size": "",
+    "approvals": "RERA DTCP",
+    "launch": "",
+    "handover": "2026/2027",
+    "category": "ongoing"
+  },
+  {
+    "name": "UR WHISPERS OF SKY",
+    "location": "SHOLINGANALLUR OMR",
+    "type": "",
+    "size": "",
+    "approvals": "RERA CMDA",
+    "launch": "",
+    "handover": "2030",
+    "category": "ongoing"
+  },
+  {
+    "name": "TVS VERDE VISTA",
+    "location": "PADUR OMR",
+    "type": "",
+    "size": "",
+    "approvals": "RERA DTCP",
+    "launch": "",
+    "handover": "2028",
+    "category": "ongoing"
+  },
+  {
+    "name": "TVS SERENE SPRINGS  ( SEN -CITIZEN LIVING )",
+    "location": "KELAMBAKKAM",
+    "type": "",
+    "size": "",
+    "approvals": "RERA DTCP",
+    "launch": "",
+    "handover": "2029",
+    "category": "ongoing"
+  },
+  {
+    "name": "TVS UDYANA",
+    "location": "MEDAVAKKAM",
+    "type": "",
+    "size": "",
+    "approvals": "RERA CMDA",
+    "launch": "",
+    "handover": "RTM / 2028",
+    "category": "ongoing"
+  },
+  {
+    "name": "TVS LUXOR",
+    "location": "ANNA NAGAR",
+    "type": "",
+    "size": "",
+    "approvals": "RERA",
+    "launch": "",
+    "handover": "2028",
+    "category": "ongoing"
+  },
+  {
+    "name": "SIDHARTH SQUARE",
+    "location": "GERUGAMBAKKAM",
+    "type": "",
+    "size": "",
+    "approvals": "CMDA RERA",
+    "launch": "",
+    "handover": "RTM",
+    "category": "ongoing"
+  },
+  {
+    "name": "SIDHARTH SOLITARE",
+    "location": "EKATUTHANAGAL",
+    "type": "",
+    "size": "",
+    "approvals": "CMDA RERA",
+    "launch": "",
+    "handover": "2027",
+    "category": "ongoing"
+  },
+  {
+    "name": "SIDHARTH CROWN",
+    "location": "MADHAVARAM",
+    "type": "",
+    "size": "",
+    "approvals": "CMDA RERA",
+    "launch": "",
+    "handover": "RTM",
+    "category": "ongoing"
+  },
+  {
+    "name": "SIDHARTH BLISS",
+    "location": "ECR",
+    "type": "",
+    "size": "",
+    "approvals": "CMDA RERA",
+    "launch": "",
+    "handover": "2028",
+    "category": "ongoing"
+  },
+  {
+    "name": "RADIANCE ETERNITY",
+    "location": "THORAIPAKKAM OMR",
+    "type": "",
+    "size": "",
+    "approvals": "CMDA RERA",
+    "launch": "",
+    "handover": "2028",
+    "category": "ongoing"
+  },
+  {
+    "name": "RADIANCE SOLITARE",
+    "location": "MADHAVARAM",
+    "type": "",
+    "size": "",
+    "approvals": "CMDA RERA",
+    "launch": "",
+    "handover": "2028",
+    "category": "ongoing"
+  },
+  {
+    "name": "BRIGADE ALTIUS",
+    "location": "SHOLINGANALLUR OMR",
+    "type": "",
+    "size": "",
+    "approvals": "CMDA RERA",
+    "launch": "",
+    "handover": "2030",
+    "category": "ongoing"
+  },
+  {
+    "name": "BRIGADE ICON",
+    "location": "MOUNT ROAD",
+    "type": "",
+    "size": "",
+    "approvals": "CMDA RERA",
+    "launch": "",
+    "handover": "2030",
+    "category": "ongoing"
+  },
+  {
+    "name": "GTB REPUBLIC OF NATURE",
+    "location": "KOVALAM ECR",
+    "type": "",
+    "size": "",
+    "approvals": "RERA",
+    "launch": "",
+    "handover": "2027",
+    "category": "ongoing"
+  },
+  {
+    "name": "DRA I HEART",
+    "location": "SIRUSERI",
+    "type": "",
+    "size": "",
+    "approvals": "CMDA RERA",
+    "launch": "",
+    "handover": "2028",
+    "category": "ongoing"
+  },
+  {
+    "name": "DRA MARINA 100",
+    "location": "NAVALUR",
+    "type": "",
+    "size": "",
+    "approvals": "CMDA RERA",
+    "launch": "",
+    "handover": "2028",
+    "category": "ongoing"
+  },
+  {
+    "name": "DRA CLOVER",
+    "location": "EAST THAMBARAM",
+    "type": "",
+    "size": "",
+    "approvals": "CMDA RERA",
+    "launch": "",
+    "handover": "2027",
+    "category": "ongoing"
+  },
+  {
+    "name": "DRA COVE",
+    "location": "URAPAKKAM",
+    "type": "",
+    "size": "",
+    "approvals": "RERA",
+    "launch": "",
+    "handover": "RTM",
+    "category": "ongoing"
+  },
+  {
+    "name": "DRA ASTRA",
+    "location": "MADHAVARAM",
+    "type": "",
+    "size": "",
+    "approvals": "CMDA RERA",
+    "launch": "",
+    "handover": "2027",
+    "category": "ongoing"
+  },
+  {
+    "name": "DRA POLARIS",
+    "location": "MOOLAKADAI",
+    "type": "",
+    "size": "",
+    "approvals": "CMDA RERA",
+    "launch": "",
+    "handover": "2027",
+    "category": "ongoing"
+  },
+  {
+    "name": "DRA INFINIQUE",
+    "location": "VALASARAVAKKAM",
+    "type": "",
+    "size": "",
+    "approvals": "CMDA RERA",
+    "launch": "",
+    "handover": "2026",
+    "category": "ongoing"
+  },
+  {
+    "name": "STEPSTONE VIRAAM",
+    "location": "KATTUPAKKAM",
+    "type": "",
+    "size": "",
+    "approvals": "CMDA RERA",
+    "launch": "",
+    "handover": "2027",
+    "category": "ongoing"
+  },
+  {
+    "name": "SILVERSKY THE EDGE",
+    "location": "KORATTUR",
+    "type": "",
+    "size": "",
+    "approvals": "CMDA RERA",
+    "launch": "",
+    "handover": "2027",
+    "category": "ongoing"
+  },
+  {
+    "name": "SILVERSKY THE ONE",
+    "location": "PERUNGALATHUR",
+    "type": "",
+    "size": "",
+    "approvals": "RERA",
+    "launch": "",
+    "handover": "2028",
+    "category": "ongoing"
+  },
+  {
+    "name": "SILVERSKY MEGH AARIKA",
+    "location": "MOGAPPAIR",
+    "type": "",
+    "size": "",
+    "approvals": "RERA",
+    "launch": "",
+    "handover": "2026",
+    "category": "ongoing"
+  },
+  {
+    "name": "NCC URBAN SIGNATURE",
+    "location": "SEMMANCHERI",
+    "type": "",
+    "size": "",
+    "approvals": "CMDA RERA",
+    "launch": "",
+    "handover": "2027",
+    "category": "ongoing"
+  },
+  {
+    "name": "NCC URBAN IVY",
+    "location": "200 RADIAL ROAD PALLAVARAM TO THORAIPAKKAM",
+    "type": "",
+    "size": "",
+    "approvals": "CMDA RERA",
+    "launch": "",
+    "handover": "2027",
+    "category": "ongoing"
+  },
+  {
+    "name": "RAINBOW CHETNA",
+    "location": "PERAMBUR",
+    "type": "",
+    "size": "",
+    "approvals": "CMDA RERA",
+    "launch": "",
+    "handover": "RTM",
+    "category": "ongoing"
+  },
+  {
+    "name": "MP VARAM",
+    "location": "VANAGARAM",
+    "type": "",
+    "size": "",
+    "approvals": "CMDA RERA",
+    "launch": "",
+    "handover": "2027",
+    "category": "ongoing"
+  },
+  {
+    "name": "MP WHITE HOUSE",
+    "location": "MANAPAKKAM",
+    "type": "",
+    "size": "",
+    "approvals": "CMDA RERA",
+    "launch": "",
+    "handover": "2026",
+    "category": "ongoing"
+  },
+  {
+    "name": "MP MUGIL & MUGAVARI",
+    "location": "MUGALIVAKKAM",
+    "type": "",
+    "size": "",
+    "approvals": "CMDA RERA",
+    "launch": "",
+    "handover": "2026",
+    "category": "ongoing"
+  },
+  {
+    "name": "MP PETALS",
+    "location": "KUNDRATHUR",
+    "type": "",
+    "size": "",
+    "approvals": "CMDA RERA",
+    "launch": "",
+    "handover": "2026",
+    "category": "ongoing"
+  },
+  {
+    "name": "MP GREENBAY",
+    "location": "KUNDRATHUR",
+    "type": "",
+    "size": "",
+    "approvals": "CMDA RERA",
+    "launch": "",
+    "handover": "2026",
+    "category": "ongoing"
+  },
+  {
+    "name": "MP GOLDEN HEIGHTS",
+    "location": "KOVUR",
+    "type": "",
+    "size": "",
+    "approvals": "CMDA RERA",
+    "launch": "",
+    "handover": "2026",
+    "category": "ongoing"
+  },
+  {
+    "name": "MP MAVIS",
+    "location": "PERUNGALATHUR",
+    "type": "",
+    "size": "",
+    "approvals": "CMDA RERA",
+    "launch": "",
+    "handover": "2027",
+    "category": "ongoing"
+  },
+  {
+    "name": "TRAVENTURE ALTITUDE 9",
+    "location": "KOYAMBEDU",
+    "type": "",
+    "size": "",
+    "approvals": "CMDA RERA",
+    "launch": "",
+    "handover": "2028",
+    "category": "ongoing"
+  },
+  {
+    "name": "TRAVENTURE SERENE",
+    "location": "SALIGRAMAM",
+    "type": "",
+    "size": "",
+    "approvals": "CMDA RERA",
+    "launch": "",
+    "handover": "2026",
+    "category": "ongoing"
+  },
+  {
+    "name": "TRAVENTURE ATHULYA",
+    "location": "SALIGRAMAM",
+    "type": "",
+    "size": "",
+    "approvals": "CMDA RERA",
+    "launch": "",
+    "handover": "2027",
+    "category": "ongoing"
+  },
+  {
+    "name": "TRAVENTURE NEXUS",
+    "location": "VIRUGAMBAKAM",
+    "type": "",
+    "size": "",
+    "approvals": "CMDA RERA",
+    "launch": "",
+    "handover": "2026",
+    "category": "ongoing"
+  },
+  {
+    "name": "ARUN EXCELLO HARIPRIYA",
+    "location": "GUDUVANCHERY  KAYARAMBEDU",
+    "type": "",
+    "size": "",
+    "approvals": "DTCP / RERA",
+    "launch": "",
+    "handover": "2027",
+    "category": "ongoing"
+  },
+  {
+    "name": "ARUN EXCELLO SAMANTA",
+    "location": "SINGAPERUMAL KOIL",
+    "type": "",
+    "size": "",
+    "approvals": "DTCP / RERA",
+    "launch": "",
+    "handover": "2028",
+    "category": "ongoing"
+  },
+  {
+    "name": "ARUN EXCELLO SANJANI",
+    "location": "CHENGALPET",
+    "type": "",
+    "size": "",
+    "approvals": "DTCP / RERA",
+    "launch": "",
+    "handover": "2027 &2028",
+    "category": "ongoing"
+  },
+  {
+    "name": "ARUN EXCELLO THE LEGACY",
+    "location": "ORAGADAM",
+    "type": "",
+    "size": "",
+    "approvals": "DTCP / RERA",
+    "launch": "",
+    "handover": "2027",
+    "category": "ongoing"
+  },
+  {
+    "name": "ARUN EXCELLO LALITHANGI",
+    "location": "PANRUTI ORAGADAM",
+    "type": "",
+    "size": "",
+    "approvals": "DTCP / RERA",
+    "launch": "",
+    "handover": "RTM",
+    "category": "ongoing"
+  },
+  {
+    "name": "ARUN EXCELLO TARANGINI",
+    "location": "THIRUVALLUR",
+    "type": "",
+    "size": "",
+    "approvals": "DTCP / RERA",
+    "launch": "",
+    "handover": "2026",
+    "category": "ongoing"
+  },
+  {
+    "name": "ARUN EXCELLO LALITHA",
+    "location": "THIRUPORUR",
+    "type": "",
+    "size": "",
+    "approvals": "DTCP / RERA",
+    "launch": "",
+    "handover": "2027",
+    "category": "ongoing"
+  },
+  {
+    "name": "ARIHANT MELANGE",
+    "location": "SALIGRAMAM",
+    "type": "",
+    "size": "",
+    "approvals": "CMDA RERA",
+    "launch": "",
+    "handover": "2026 Nearing Completion",
+    "category": "ongoing"
+  },
+  {
+    "name": "JAINS SEVEN 77",
+    "location": "OMR PERUNGUDI",
+    "type": "",
+    "size": "",
+    "approvals": "CMDA RERA",
+    "launch": "",
+    "handover": "2026",
+    "category": "ongoing"
+  },
+  {
+    "name": "JAINS PEBBLE BROOK",
+    "location": "OMR KARAPAKKAM",
+    "type": "",
+    "size": "",
+    "approvals": "CMDA RERA",
+    "launch": "",
+    "handover": "RTM",
+    "category": "ongoing"
+  },
+  {
+    "name": "JAINS INSELIPARK",
+    "location": "OMR PADUR",
+    "type": "",
+    "size": "",
+    "approvals": "DTCP / RERA",
+    "launch": "",
+    "handover": "RTM",
+    "category": "ongoing"
+  },
+  {
+    "name": "JAINS ANUSREE",
+    "location": "OMR NAVALUR",
+    "type": "",
+    "size": "",
+    "approvals": "DTCP / RERA",
+    "launch": "",
+    "handover": "2027",
+    "category": "ongoing"
+  },
+  {
+    "name": "JAINS AADHYA",
+    "location": "SEMMANCHERI",
+    "type": "",
+    "size": "",
+    "approvals": "CMDA RERA",
+    "launch": "",
+    "handover": "2027",
+    "category": "ongoing"
+  },
+  {
+    "name": "JAINS ADHI DEV",
+    "location": "MANAPAKKAM",
+    "type": "",
+    "size": "",
+    "approvals": "CMDA RERA",
+    "launch": "",
+    "handover": "RTM",
+    "category": "ongoing"
+  },
+  {
+    "name": "JAINS ADVAYA",
+    "location": "KOVUR",
+    "type": "",
+    "size": "",
+    "approvals": "RERA",
+    "launch": "",
+    "handover": "RTM",
+    "category": "ongoing"
+  },
+  {
+    "name": "AMAARA ADHYATMA",
+    "location": "SUNDARAJAN STREET ABHIRAMAPURAM",
+    "type": "",
+    "size": "",
+    "approvals": "RERA",
+    "launch": "",
+    "handover": "2027",
+    "category": "ongoing"
+  },
+  {
+    "name": "AMAARA AANYA",
+    "location": "ST. MARY'S ROAD ALWARPET",
+    "type": "",
+    "size": "",
+    "approvals": "RERA",
+    "launch": "",
+    "handover": "2028",
+    "category": "ongoing"
+  },
+  {
+    "name": "AMARA AKASHA",
+    "location": "PERUNGUDI,OMR",
+    "type": "",
+    "size": "",
+    "approvals": "RERA",
+    "launch": "",
+    "handover": "RTM",
+    "category": "ongoing"
+  },
+  {
+    "name": "AMAARA SESHA",
+    "location": "GEORGE AVENUE, POES GARDEN",
+    "type": "",
+    "size": "",
+    "approvals": "RERA",
+    "launch": "",
+    "handover": "2026",
+    "category": "ongoing"
+  },
+  {
+    "name": "AMAARA AVIKA",
+    "location": "POES GARDEN",
+    "type": "",
+    "size": "",
+    "approvals": "RERA",
+    "launch": "",
+    "handover": "2026",
+    "category": "ongoing"
+  },
+  {
+    "name": "AMAARA AVIRA",
+    "location": "VIJAYA RAGHAVA ROAD T.NAGAR",
+    "type": "",
+    "size": "",
+    "approvals": "RERA",
+    "launch": "",
+    "handover": "2027",
+    "category": "ongoing"
+  },
+  {
+    "name": "AMAARA ANEJA",
+    "location": "SOUTHU BOAG ROAD T.NAGAR",
+    "type": "",
+    "size": "",
+    "approvals": "RERA",
+    "launch": "",
+    "handover": "2027",
+    "category": "ongoing"
+  },
+  {
+    "name": "AMAARA ALAAYA",
+    "location": "KOYEMBEDU P.H. ROAD",
+    "type": "",
+    "size": "",
+    "approvals": "RERA",
+    "launch": "",
+    "handover": "2028",
+    "category": "ongoing"
+  },
+  {
+    "name": "AMAARA ANIKA",
+    "location": "MONTEITH ROAD,EGMORE",
+    "type": "",
+    "size": "",
+    "approvals": "RERA",
+    "launch": "",
+    "handover": "2027",
+    "category": "ongoing"
+  },
+  {
+    "name": "AMAARA SARITA",
+    "location": "POES GARDEN",
+    "type": "",
+    "size": "",
+    "approvals": "RERA",
+    "launch": "",
+    "handover": "2028",
+    "category": "ongoing"
+  },
+  {
+    "name": "PRESTIGE PALLAVARAM GARDENS",
+    "location": "200 FT RADIAL ROAD",
+    "type": "",
+    "size": "",
+    "approvals": "RERA",
+    "launch": "",
+    "handover": "2029",
+    "category": "ongoing"
+  },
+  {
+    "name": "NU TECH CENTRAL PARK",
+    "location": "IYYAPANTHANGAL",
+    "type": "",
+    "size": "",
+    "approvals": "CMDA RERA",
+    "launch": "",
+    "handover": "2027 &2028",
+    "category": "ongoing"
+  },
+  {
+    "name": "NU TECH ELEVATE 21",
+    "location": "OMR KOTTIVAKKAM",
+    "type": "",
+    "size": "",
+    "approvals": "CMDA RERA",
+    "launch": "",
+    "handover": "2026",
+    "category": "ongoing"
+  },
+  {
+    "name": "GODREJ AZURE",
+    "location": "PADUR OMR",
+    "type": "",
+    "size": "",
+    "approvals": "DTCP / RERA",
+    "launch": "",
+    "handover": "2028",
+    "category": "ongoing"
+  },
+  {
+    "name": "PACIFICA BLISS",
+    "location": "PADUR OMR",
+    "type": "",
+    "size": "",
+    "approvals": "CMDA RERA",
+    "launch": "",
+    "handover": "2028",
+    "category": "ongoing"
+  },
+  {
+    "name": "PACIFICA PRIDE",
+    "location": "PADUR OMR",
+    "type": "",
+    "size": "",
+    "approvals": "CMDA RERA",
+    "launch": "",
+    "handover": "RTM",
+    "category": "ongoing"
+  },
+  {
+    "name": "ALAMO TUSCANY",
+    "location": "MARAIMALAI NAGAR",
+    "type": "",
+    "size": "",
+    "approvals": "UNDER PROCESS",
+    "launch": "",
+    "handover": "2029",
+    "category": "ongoing"
+  },
+  {
+    "name": "ALTIS OCEAN CLIFFS",
+    "location": "KANATHUR ECR",
+    "type": "",
+    "size": "",
+    "approvals": "DTCP / RERA",
+    "launch": "",
+    "handover": "2029",
+    "category": "ongoing"
+  },
+  {
+    "name": "VOORA ONE SEA",
+    "location": "KANATHUR ECR",
+    "type": "",
+    "size": "",
+    "approvals": "DTCP / RERA",
+    "launch": "",
+    "handover": "2028",
+    "category": "ongoing"
+  }
+]
