@@ -10,15 +10,15 @@ export default function AdminApartmentsPage() {
   const [isModalOpen, setIsModalOpen] = useState(false);
   const [editingItem, setEditingItem] = useState<any>(null);
 
-  useEffect(() => {
-    // In a real app, this would be an API call
-    // For this demo, we'll fetch via a server action or just use initial data if passed, 
-    // but we can't call getApartments directly in a client component easily without an API route.
-    // So we'll fetch via an API route. Let's create one.
+  const fetchItems = () => {
     fetch('/api/admin/apartments')
       .then(res => res.json())
       .then(data => setItems(data))
       .catch(console.error);
+  };
+
+  useEffect(() => {
+    fetchItems();
   }, []);
 
   const filteredItems = items.filter(item => 
@@ -29,24 +29,34 @@ export default function AdminApartmentsPage() {
   const handleSubmit = async (e: React.FormEvent) => {
     e.preventDefault();
     const formData = new FormData(e.target as HTMLFormElement);
-    const data = Object.fromEntries(formData);
     
-    // Optimistic update for demo
     if (editingItem) {
-      setItems(items.map(item => item.slug === editingItem.slug ? { ...item, ...data } : item));
+      formData.append('originalSlug', editingItem.slug);
+      await fetch('/api/admin/apartments', {
+        method: 'PUT',
+        body: formData,
+      });
+      alert('Successfully updated property!');
     } else {
-      setItems([{ ...data, slug: data.name.toString().toLowerCase().replace(/[^a-z0-9]+/g, '-') }, ...items]);
+      await fetch('/api/admin/apartments', {
+        method: 'POST',
+        body: formData,
+      });
+      alert('Successfully added property!');
     }
     
     setIsModalOpen(false);
     setEditingItem(null);
-    alert(`Successfully ${editingItem ? 'updated' : 'added'} property! (Demo Mode)`);
+    fetchItems();
   };
 
-  const handleDelete = (slug: string) => {
+  const handleDelete = async (slug: string) => {
     if (confirm('Are you sure you want to delete this property?')) {
-      setItems(items.filter(item => item.slug !== slug));
-      alert('Property deleted! (Demo Mode)');
+      await fetch(`/api/admin/apartments?slug=${slug}`, {
+        method: 'DELETE'
+      });
+      alert('Property deleted!');
+      fetchItems();
     }
   };
 

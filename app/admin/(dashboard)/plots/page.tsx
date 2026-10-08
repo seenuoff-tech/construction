@@ -9,11 +9,15 @@ export default function AdminPlotsPage() {
   const [isModalOpen, setIsModalOpen] = useState(false);
   const [editingItem, setEditingItem] = useState<any>(null);
 
-  useEffect(() => {
+  const fetchItems = () => {
     fetch('/api/admin/plots')
       .then(res => res.json())
       .then(data => setItems(data))
       .catch(console.error);
+  };
+
+  useEffect(() => {
+    fetchItems();
   }, []);
 
   const filteredItems = items.filter(item => 
@@ -24,23 +28,34 @@ export default function AdminPlotsPage() {
   const handleSubmit = async (e: React.FormEvent) => {
     e.preventDefault();
     const formData = new FormData(e.target as HTMLFormElement);
-    const data = Object.fromEntries(formData);
     
     if (editingItem) {
-      setItems(items.map(item => item.slug === editingItem.slug ? { ...item, ...data } : item));
+      formData.append('originalSlug', editingItem.slug);
+      await fetch('/api/admin/plots', {
+        method: 'PUT',
+        body: formData,
+      });
+      alert('Successfully updated plot!');
     } else {
-      setItems([{ ...data, slug: data.name.toString().toLowerCase().replace(/[^a-z0-9]+/g, '-') }, ...items]);
+      await fetch('/api/admin/plots', {
+        method: 'POST',
+        body: formData,
+      });
+      alert('Successfully added plot!');
     }
     
     setIsModalOpen(false);
     setEditingItem(null);
-    alert(`Successfully ${editingItem ? 'updated' : 'added'} plot! (Demo Mode)`);
+    fetchItems();
   };
 
-  const handleDelete = (slug: string) => {
+  const handleDelete = async (slug: string) => {
     if (confirm('Are you sure you want to delete this plot?')) {
-      setItems(items.filter(item => item.slug !== slug));
-      alert('Plot deleted! (Demo Mode)');
+      await fetch(`/api/admin/plots?slug=${slug}`, {
+        method: 'DELETE'
+      });
+      alert('Plot deleted!');
+      fetchItems();
     }
   };
 
