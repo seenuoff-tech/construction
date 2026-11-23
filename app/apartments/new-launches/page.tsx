@@ -1,107 +1,128 @@
 import { getApartments } from '@/lib/apartments';
-import Link from 'next/link';
-import { MapPin, Maximize, FileCheck, Building2, Calendar, Rocket } from 'lucide-react';
+import { Maximize2, LayoutGrid, Rocket } from 'lucide-react';
+
+function formatPrice(price?: string) {
+  if (!price) return 'Price on Request';
+  const cleaned = price.replace(/^Rs\.?\s*/i, '').trim();
+  const lc = cleaned.toLowerCase();
+  if (lc.includes('onwards')) {
+    return `₹  ${cleaned.replace(/\*?\s*[Oo]nwards\.?/i, '').trim()}*`;
+  }
+  return `₹  ${cleaned}`;
+}
+
+function extractBuilder(name: string) {
+  const known = [
+    'TRAVENTURE','STEPSTONE','RADIANCE','BRIGADE','PURAVANKARA','PROVIDENT',
+    'NAVINS','SHRIRAM','SIDHARTH','SILVERSKY','RAINBOW','SOBHA','PRESTIGE',
+    'GODREJ','TVS','PACIFICA','SAMEERA','ADITYARAM','ARIHANT','ALAMO',
+    'AMP','AMAARA','PURVA'
+  ];
+  const upper = name.toUpperCase();
+  for (const b of known) {
+    if (upper.startsWith(b + ' ')) return b;
+  }
+  const multi = ['ARUN EXCELLO','GTB','NCC URBAN','DRA','MP','VRX','SIS','NU TECH','JAINS'];
+  for (const b of multi) {
+    if (upper.startsWith(b + ' ')) return b;
+  }
+  return name.split(' ')[0];
+}
 
 export default function NewLaunchApartmentsPage() {
   const allApartments = getApartments();
   const apartments = allApartments.filter(apt => apt.category === 'new-launch');
 
   return (
-    <main className="bg-white min-h-screen pt-32 pb-20">
+    <main className="bg-gray-100 min-h-screen pt-32 pb-20">
       <div className="max-w-7xl mx-auto px-6 md:px-8">
-        
+
         <div className="text-center mb-16">
           <h1 className="text-4xl md:text-5xl font-bold text-[#142B6D] mb-4">New Launch Apartments</h1>
-          <div className="w-24 h-1.5 bg-[#FBB150] mx-auto rounded-full" />
+          <div className="w-24 h-1.5 bg-[#000000] mx-auto rounded-full" />
         </div>
 
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
-          {apartments.map((apt) => (
-            <div key={apt.slug} className="bg-white rounded-3xl overflow-hidden shadow-lg border border-gray-100 flex flex-col hover:-translate-y-2 transition-transform duration-300 relative">
-              
-              {/* New Launch Badge */}
-              <div className="absolute top-4 right-4 bg-red-600 text-white text-xs font-bold px-3 py-1 rounded-full shadow-md z-10 animate-pulse flex items-center gap-1">
-                <Rocket className="w-3 h-3" />
-                NEW LAUNCH
-              </div>
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+          {apartments.map((apt) => {
+            const builder = extractBuilder(apt.name);
+            const imgSrc = apt.images && apt.images.length > 0 ? apt.images[0] : '/default-building.jpg';
+            const waLink = `https://wa.me/919363726148?text=Hi%2C+I+am+interested+in+${encodeURIComponent(apt.name)}+(${encodeURIComponent(apt.location || 'Chennai')}). Could+you+share+more+details%3F`;
 
-              <div className="bg-gradient-to-r from-[#142B6D] to-[#2546a1] p-6 text-center pt-10">
-                <h3 className="text-2xl font-bold text-white leading-tight">
-                  {apt.name}
-                </h3>
-              </div>
-              
-              <div className="p-6 flex flex-col flex-1">
-                <div className="flex flex-col gap-4 mb-8 flex-1">
-                  
-                  <div className="flex items-center gap-3">
-                    <div className="bg-[#142B6D]/10 p-2 rounded-lg">
-                      <MapPin className="w-4 h-4 text-[#142B6D]" />
-                    </div>
-                    <div>
-                      <p className="text-[10px] text-gray-500 font-bold uppercase tracking-wider">Location</p>
-                      <p className="text-sm font-bold text-gray-900">{apt.location}</p>
-                    </div>
+            return (
+              <div
+                key={apt.slug}
+                className="bg-white rounded-2xl overflow-hidden shadow-md hover:shadow-2xl hover:-translate-y-1 transition-all duration-300 flex flex-col"
+              >
+                {/* Building Photo */}
+                <div className="relative h-52 overflow-hidden">
+                  <img
+                    src={imgSrc}
+                    alt={apt.name}
+                    className="w-full h-full object-cover"
+                  />
+                  <div className="absolute top-3 left-3 flex gap-2">
+                    <span className="bg-black/80 text-white text-xs font-semibold px-3 py-1 rounded-full backdrop-blur-sm">Apartments</span>
+                    <span className="bg-red-600 text-white text-xs font-semibold px-3 py-1 rounded-full flex items-center gap-1">
+                      <Rocket className="w-3 h-3" /> New Launch
+                    </span>
                   </div>
-
-                  <div className="flex items-center gap-3">
-                    <div className="bg-blue-100 p-2 rounded-lg">
-                      <Building2 className="w-4 h-4 text-blue-700" />
-                    </div>
-                    <div>
-                      <p className="text-[10px] text-gray-500 font-bold uppercase tracking-wider">Type (BHK)</p>
-                      <p className="text-sm font-bold text-gray-900">{apt.type} BHK</p>
-                    </div>
-                  </div>
-
-                  <div className="flex items-center gap-3">
-                    <div className="bg-[#FBB150]/20 p-2 rounded-lg">
-                      <Maximize className="w-4 h-4 text-[#d99036]" />
-                    </div>
-                    <div>
-                      <p className="text-[10px] text-gray-500 font-bold uppercase tracking-wider">Size Range</p>
-                      <p className="text-sm font-bold text-gray-900">{apt.sizeRange} {apt.sizeRange !== 'Various Sizes' && 'Sq.ft'}</p>
-                    </div>
-                  </div>
-
-                  <div className="flex items-center gap-3">
-                    <div className="bg-green-100 p-2 rounded-lg">
-                      <FileCheck className="w-4 h-4 text-green-700" />
-                    </div>
-                    <div>
-                      <p className="text-[10px] text-gray-500 font-bold uppercase tracking-wider">Approvals</p>
-                      <p className="text-sm font-bold text-green-700">{apt.approvals}</p>
-                    </div>
-                  </div>
-
-                  <div className="flex items-center gap-3">
-                    <div className="bg-purple-100 p-2 rounded-lg">
-                      <Calendar className="w-4 h-4 text-purple-700" />
-                    </div>
-                    <div>
-                      <p className="text-[10px] text-gray-500 font-bold uppercase tracking-wider">Handover / Launch</p>
-                      <p className="text-sm font-bold text-purple-700">{apt.launchDate || apt.handOverDate}</p>
-                    </div>
-                  </div>
-
                 </div>
-                
-                <div className="flex items-center gap-4 mt-auto">
-                  <Link href={`/apartments/${apt.slug}`} className="flex-1 bg-[#142B6D] hover:bg-[#0f2052] text-white text-center py-3 rounded-xl font-semibold transition-colors">
-                    Read More
-                  </Link>
-                  <a 
-                    href={`https://wa.me/919363726148?text=Hi, I am interested in the NEW LAUNCH Apartment ${encodeURIComponent(apt.name)}. Could you share more details?`}
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    className="flex-1 border-2 border-[#FBB150] text-[#FBB150] hover:bg-[#FBB150] hover:text-white text-center py-3 rounded-xl font-semibold transition-colors"
-                  >
-                    Enquiry Now
-                  </a>
+
+                {/* Card Body */}
+                <div className="p-5 flex flex-col flex-1">
+                  <h3 className="text-lg font-bold text-gray-900 leading-snug mb-1">
+                    {apt.name}
+                  </h3>
+                  <p className="text-sm font-semibold text-red-600 mb-3">
+                    By: {builder}
+                  </p>
+                  <p className="text-xs text-gray-500 mb-3 flex items-center gap-1">
+                    📍 {apt.location}
+                  </p>
+
+                  <hr className="mb-3 border-gray-100" />
+
+                  <div className="grid grid-cols-2 gap-3 mb-4">
+                    {apt.sizeRange && apt.sizeRange !== 'Various Sizes' && (
+                      <div>
+                        <p className="text-[11px] text-gray-400 mb-0.5">Area:</p>
+                        <p className="text-sm font-semibold text-gray-700 flex items-center gap-1">
+                          <Maximize2 className="w-3.5 h-3.5 text-gray-400" />
+                          {apt.sizeRange} Sq.ft
+                        </p>
+                      </div>
+                    )}
+                    {apt.type && apt.type !== 'Various' && (
+                      <div>
+                        <p className="text-[11px] text-gray-400 mb-0.5">Configuration:</p>
+                        <p className="text-sm font-semibold text-gray-700 flex items-center gap-1">
+                          <LayoutGrid className="w-3.5 h-3.5 text-gray-400" />
+                          {apt.type} BHK
+                        </p>
+                      </div>
+                    )}
+                  </div>
+
+                  <div className="flex items-center justify-between mt-auto">
+                    <p className="text-xl font-bold text-[#000000]">
+                      {formatPrice(apt.price)}
+                    </p>
+                    <a
+                      href={waLink}
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="flex-shrink-0 w-11 h-11 bg-[#25D366] hover:bg-[#1ebe59] rounded-full flex items-center justify-center shadow-md transition-colors"
+                      title="WhatsApp Enquiry"
+                    >
+                      <svg xmlns="http://www.w3.org/2000/svg" className="w-5 h-5" viewBox="0 0 24 24" fill="white">
+                        <path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/>
+                      </svg>
+                    </a>
+                  </div>
                 </div>
               </div>
-            </div>
-          ))}
+            );
+          })}
           {apartments.length === 0 && (
             <div className="col-span-full text-center py-12">
               <p className="text-gray-500 text-lg">More new launches coming soon!</p>

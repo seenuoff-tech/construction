@@ -11,6 +11,7 @@ export interface Plot {
   location?: string;
   sizeRange?: string;
   approvals?: string;
+  price?: string;
 }
 
 export function getPlots(): Plot[] {
@@ -77,6 +78,7 @@ export function getPlots(): Plot[] {
       location: meta.location || 'Contact for details',
       sizeRange: meta.size || 'Various Sizes',
       approvals: meta.approvals || 'Pending',
+      price: (meta as any).price || '',
     };
   });
 }

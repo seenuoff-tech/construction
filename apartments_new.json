@@ -1,0 +1,852 @@
+[
+  {
+    "name": "ARUN EXCELLO SAMANTA",
+    "location": "SINGAPERUMAL KOIL",
+    "type": "1 & 2",
+    "size": "480 to 750",
+    "approvals": "RERA",
+    "handover": "2028",
+    "price": "Rs.27 Lakhs onwards",
+    "category": "ongoing"
+  },
+  {
+    "name": "ARUN EXCELLO SANJANI",
+    "location": "CHENGALPATTU",
+    "type": "2",
+    "size": "625 - 735",
+    "approvals": "RERA",
+    "handover": "2027 & 2028",
+    "price": "Rs.29 Lakhs Onwards",
+    "category": "ongoing"
+  },
+  {
+    "name": "ARUN EXCELLO LALITHA",
+    "location": "THIRUPORUR",
+    "type": "1 & 2",
+    "size": "465 to 705",
+    "approvals": "RERA",
+    "handover": "2027",
+    "price": "₹26 Lakhs Onwards",
+    "category": "ongoing"
+  },
+  {
+    "name": "ARUN EXCELLO PLOTS",
+    "location": "",
+    "type": "",
+    "size": "",
+    "approvals": "",
+    "handover": "",
+    "price": "",
+    "category": "ongoing"
+  },
+  {
+    "name": "BUILDER NAME PROJECT NAME",
+    "location": "LOCATION",
+    "type": "ACTUAL PRICE",
+    "size": "MIN TO MAX",
+    "approvals": "AVAILABLE UNITS",
+    "handover": "Total Units",
+    "price": "GUIDLINE VALUE",
+    "category": "ongoing"
+  },
+  {
+    "name": "ARUN EXCELLO GREEN ACRES (TEMPLE GREEN PROJECT COVERED)",
+    "location": "ORAGADAM",
+    "type": "Rs.17 Lakhs Onwards",
+    "size": "600- 2400",
+    "approvals": "",
+    "handover": "124 UNITS",
+    "price": "",
+    "category": "ongoing"
+  },
+  {
+    "name": "ALTIS OCEAN CLIFFS",
+    "location": "ECR",
+    "type": "2,3,4",
+    "size": "1669 - 4559",
+    "approvals": "RERA",
+    "handover": "2028 DEC",
+    "price": "Rs.1.85 Cr onwards",
+    "category": "ongoing"
+  },
+  {
+    "name": "BRIGADE VANAGARAM",
+    "location": "VANAGARAM",
+    "type": "2 , 3 ,3 SIGNATURE",
+    "size": "1140 -1960",
+    "approvals": "PRE LAUNCH",
+    "handover": "UNDER PROCESS ONLY EOI",
+    "price": "Rs. 1.39 Crs- Rs2.35 Crs",
+    "category": "new-launch"
+  },
+  {
+    "name": "BRIGADE ICON",
+    "location": "MOUNT ROAD",
+    "type": "3 ,4 , 5",
+    "size": "2730 - 5530",
+    "approvals": "CMDA RERA",
+    "handover": "JULY 2030",
+    "price": "Rs. 8.5 Cr Onwards",
+    "category": "ongoing"
+  },
+  {
+    "name": "BRIGADE ALTIUS",
+    "location": "OMR - ECR",
+    "type": "3,3+MAID,4",
+    "size": "1726 - 5054",
+    "approvals": "CMDA RERA",
+    "handover": "2030",
+    "price": "Rs. 2.39 Cr Onwards",
+    "category": "ongoing"
+  },
+  {
+    "name": "BRIGADE STELLARIS",
+    "location": "VELACHERY",
+    "type": "3 ,4 ,5",
+    "size": "2033 -  6337",
+    "approvals": "RERA",
+    "handover": "PRE LAUNCH",
+    "price": "Rs. 4.60 Cr Onwards",
+    "category": "new-launch"
+  },
+  {
+    "name": "DRA FIRST WORLD",
+    "location": "POONAMALLEE",
+    "type": "LIFESTYLE STUDIO,2,3",
+    "size": "354 - 1582",
+    "approvals": "PRE LAUNCH",
+    "handover": "3 YEARS",
+    "price": "Rs.75 Lakhs Onwards",
+    "category": "new-launch"
+  },
+  {
+    "name": "DRA I HEART",
+    "location": "SIRUSERI",
+    "type": "3,4",
+    "size": "1895-2927",
+    "approvals": "CMDA",
+    "handover": "2028",
+    "price": "Rs.2.11 Cr Onwards",
+    "category": "ongoing"
+  },
+  {
+    "name": "DRA MARINA 100",
+    "location": "NAVALUR",
+    "type": "3, 3+MAID",
+    "size": "1777-1938",
+    "approvals": "CMDA",
+    "handover": "2028",
+    "price": "Rs.1.82 Cr Onwards",
+    "category": "ongoing"
+  },
+  {
+    "name": "DRA CLOVER",
+    "location": "SELAIYUR",
+    "type": "2,3",
+    "size": "1097-1362",
+    "approvals": "CMDA",
+    "handover": "2027",
+    "price": "Rs.95 Lakhs Onwards",
+    "category": "ongoing"
+  },
+  {
+    "name": "DRA COVE",
+    "location": "URAPAKKAM",
+    "type": "STUDIO",
+    "size": "705 - 787",
+    "approvals": "RERA",
+    "handover": "RTM",
+    "price": "Rs.55 Lakhs Onwards",
+    "category": "ongoing"
+  },
+  {
+    "name": "DRA ASTRA",
+    "location": "MADHAVARAM",
+    "type": "3",
+    "size": "1360- 1695",
+    "approvals": "CMDA",
+    "handover": "2027",
+    "price": "Rs.1.18 Cr Onwards",
+    "category": "ongoing"
+  },
+  {
+    "name": "DRA POLARIS",
+    "location": "MOOLAKADAI",
+    "type": "2, 3",
+    "size": "1168- 1948",
+    "approvals": "CMDA",
+    "handover": "2027",
+    "price": "Rs.1.10 Cr Onwards",
+    "category": "ongoing"
+  },
+  {
+    "name": "DRA RICHBURG",
+    "location": "SELAIYUR",
+    "type": "2, 3, 4",
+    "size": "938 - 1768",
+    "approvals": "UNDER PROCESS",
+    "handover": "2029",
+    "price": "Rs.80 Lakhs Onwards",
+    "category": "ongoing"
+  },
+  {
+    "name": "DRA VILLA",
+    "location": "",
+    "type": "",
+    "size": "",
+    "approvals": "",
+    "handover": "",
+    "price": "",
+    "category": "ongoing"
+  },
+  {
+    "name": "DRA INARA",
+    "location": "NAVALUR",
+    "type": "3, 4 ROWVILLA",
+    "size": "724 - 3697",
+    "approvals": "CMDA",
+    "handover": "2027",
+    "price": "Rs.1.79 Cr- 2.40 Crs",
+    "category": "ongoing"
+  },
+  {
+    "name": "DRA PLOTS",
+    "location": "",
+    "type": "",
+    "size": "",
+    "approvals": "",
+    "handover": "",
+    "price": "",
+    "category": "ongoing"
+  },
+  {
+    "name": "DRA SECURA",
+    "location": "1150 TO 2000 SQFT",
+    "type": "Rs.4699/- SQFT",
+    "size": "RTB",
+    "approvals": "",
+    "handover": "",
+    "price": "CMDA",
+    "category": "ongoing"
+  },
+  {
+    "name": "DRA AVALON",
+    "location": "590 TO 2400 SQFT",
+    "type": "Rs.2999/- SQFT",
+    "size": "RTB",
+    "approvals": "",
+    "handover": "",
+    "price": "DTCP &RERA",
+    "category": "ongoing"
+  },
+  {
+    "name": "GT BHARATHI REPUBLIC OF NATURE",
+    "location": "KOVALAM",
+    "type": "1, 2, 3",
+    "size": "818- 2133",
+    "approvals": "DTCP,RERA",
+    "handover": "2028",
+    "price": "Rs.86L- Rs2.13 CrS",
+    "category": "ongoing"
+  },
+  {
+    "name": "GT BHARATHI RISINGPALMS",
+    "location": "POONAMALLEE",
+    "type": "1, 2",
+    "size": "515- 805",
+    "approvals": "",
+    "handover": "PRE LUNCH",
+    "price": "Rs.35 L - 49 L",
+    "category": "new-launch"
+  },
+  {
+    "name": "GTB VILLA",
+    "location": "",
+    "type": "",
+    "size": "",
+    "approvals": "",
+    "handover": "",
+    "price": "",
+    "category": "ongoing"
+  },
+  {
+    "name": "GT BHARATHI REPUBLIC OF NATURE",
+    "location": "3, 4 BHK",
+    "type": "2552- 3643 SQFT",
+    "size": "Rs.3.70 Cr Onwards",
+    "approvals": "",
+    "handover": "DTCP,RERA",
+    "price": "2028",
+    "category": "ongoing"
+  },
+  {
+    "name": "GT BHARATHI RISINGPALMS",
+    "location": "3 BHK",
+    "type": "1496 SQFT",
+    "size": "Rs.1.15 Crs ONWARDS",
+    "approvals": "",
+    "handover": "",
+    "price": "PRE LAUNCH",
+    "category": "ongoing"
+  },
+  {
+    "name": "MP VARAM",
+    "location": "VANAGARAM",
+    "type": "2, 3",
+    "size": "925 -1285",
+    "approvals": "RERA",
+    "handover": "2027",
+    "price": "Rs.90L Onwards",
+    "category": "ongoing"
+  },
+  {
+    "name": "MP VALAS 27",
+    "location": "VALASARAVAKKAM",
+    "type": "2, 3",
+    "size": "1014 - 1715",
+    "approvals": "RERA",
+    "handover": "16 MONTH",
+    "price": "Rs.1.5Cr Onwards",
+    "category": "ongoing"
+  },
+  {
+    "name": "MP MARBELLA",
+    "location": "T.NAGAR",
+    "type": "3",
+    "size": "1711-1811",
+    "approvals": "RERA",
+    "handover": "12 MONTH",
+    "price": "Rs.4 Crs Onwards",
+    "category": "ongoing"
+  },
+  {
+    "name": "MP RUE RADIALE",
+    "location": "RADIAL ROAD",
+    "type": "2, 3",
+    "size": "892 -1297",
+    "approvals": "RERA",
+    "handover": "16 MONTH",
+    "price": "Rs.99 Lakhs Onwards",
+    "category": "ongoing"
+  },
+  {
+    "name": "MP MAVIS",
+    "location": "OLD PERUNGALATHUR",
+    "type": "3",
+    "size": "1155-1390",
+    "approvals": "RERA",
+    "handover": "2027",
+    "price": "Rs.1 Cr Onwards",
+    "category": "ongoing"
+  },
+  {
+    "name": "MP GREEN BAY",
+    "location": "KUNDRATHUR",
+    "type": "2",
+    "size": "10387 - 1170",
+    "approvals": "DTCP & CDMA",
+    "handover": "READY TO MOVE",
+    "price": "Rs.73 Lakhs Onwards",
+    "category": "ongoing"
+  },
+  {
+    "name": "MP MUGIL & MUGAVARI",
+    "location": "MUGALIVAKKAM",
+    "type": "3",
+    "size": "1435 - 1668",
+    "approvals": "RERA",
+    "handover": "READY TO MOVE",
+    "price": "Rs. 1.5 Cr Onwards",
+    "category": "ongoing"
+  },
+  {
+    "name": "MP DIVINE",
+    "location": "KUNDRATHUR",
+    "type": "2,3",
+    "size": "950- 1196",
+    "approvals": "PRE LAUNCH",
+    "handover": "PRE LAUNCH",
+    "price": "Rs.65 Lakhs Onwards",
+    "category": "new-launch"
+  },
+  {
+    "name": "MPD PLOT",
+    "location": "",
+    "type": "",
+    "size": "",
+    "approvals": "",
+    "handover": "",
+    "price": "",
+    "category": "ongoing"
+  },
+  {
+    "name": "MP EDEN",
+    "location": "800- 2047 SQFT",
+    "type": "Rs.1499/- SQFT",
+    "size": "RTB",
+    "approvals": "",
+    "handover": "",
+    "price": "DTCP",
+    "category": "ongoing"
+  },
+  {
+    "name": "NU TECH CENTRAL PARK",
+    "location": "IYYAPANTHANGAL",
+    "type": "2,3,4",
+    "size": "1110-2070",
+    "approvals": "RERA",
+    "handover": "2027",
+    "price": "Rs.96L onwards",
+    "category": "ongoing"
+  },
+  {
+    "name": "NU TECH ELEVATE 21",
+    "location": "OMR",
+    "type": "3",
+    "size": "1355- 1764",
+    "approvals": "CMDA,RERA",
+    "handover": "RTM",
+    "price": "Rs.2.23 Cr-Rs.2.77 CrS",
+    "category": "ongoing"
+  },
+  {
+    "name": "NU TECH VILLA",
+    "location": "",
+    "type": "",
+    "size": "",
+    "approvals": "",
+    "handover": "",
+    "price": "",
+    "category": "ongoing"
+  },
+  {
+    "name": "NU TECH GARDEN OF GAIA",
+    "location": "3, 4 BHK",
+    "type": "3078-3453 SQFT",
+    "size": "Rs.4.5 Cr onwards",
+    "approvals": "",
+    "handover": "CMDA & RERA",
+    "price": "46296",
+    "category": "ongoing"
+  },
+  {
+    "name": "NU TECH PLOTS",
+    "location": "",
+    "type": "",
+    "size": "",
+    "approvals": "",
+    "handover": "",
+    "price": "",
+    "category": "ongoing"
+  },
+  {
+    "name": "BUILDER NAME PROJECT NAME",
+    "location": "MIN- MAX SQFT",
+    "type": "Total Units",
+    "size": "Available units",
+    "approvals": "",
+    "handover": "",
+    "price": "APPROVALS",
+    "category": "ongoing"
+  },
+  {
+    "name": "NU TECH INSCAPE",
+    "location": "1500 SQFT-2400 SQFT",
+    "type": "401",
+    "size": "40",
+    "approvals": "",
+    "handover": "",
+    "price": "CMDA/ RERA",
+    "category": "ongoing"
+  },
+  {
+    "name": "NU TECH FORTUNE",
+    "location": "1500 - 2400 SQFT",
+    "type": "511",
+    "size": "275",
+    "approvals": "",
+    "handover": "",
+    "price": "DTCP / RERA",
+    "category": "ongoing"
+  },
+  {
+    "name": "PACIFICA BLISS",
+    "location": "PADUR",
+    "type": "2, 3",
+    "size": "1069 - 1451",
+    "approvals": "CMDA,RERA",
+    "handover": "UC",
+    "price": "Rs.75 Lakhs onwards",
+    "category": "ongoing"
+  },
+  {
+    "name": "PACIFICA PRIDE",
+    "location": "PADUR",
+    "type": "2",
+    "size": "1805 -  1358",
+    "approvals": "CMDA,RERA",
+    "handover": "RTM",
+    "price": "Rs.95 Lakhs onwards",
+    "category": "ongoing"
+  },
+  {
+    "name": "PACIFICA AURUM",
+    "location": "4, 5 BHK",
+    "type": "1900 - 3700 SQFT",
+    "size": "Rs.1.8 Cr onwards",
+    "approvals": "",
+    "handover": "RERA",
+    "price": "PRE-LAUNCH",
+    "category": "ongoing"
+  },
+  {
+    "name": "PACIFICA ENCHANTE",
+    "location": "1500-2500 SQFT",
+    "type": "Rs.97 Lakhs onwards",
+    "size": "RTB",
+    "approvals": "",
+    "handover": "",
+    "price": "DTCP,RERA",
+    "category": "ongoing"
+  },
+  {
+    "name": "PRESTIGE PALM COURT",
+    "location": "MADHAVARAM",
+    "type": "1, 2, 3",
+    "size": "650 - 1850",
+    "approvals": "RERA",
+    "handover": "PRELAUNCH",
+    "price": "Rs.67L-Rs.1.36 Crs",
+    "category": "new-launch"
+  },
+  {
+    "name": "PRESTIGE PALLAVARAM GARDENS",
+    "location": "PALLAVARAM - THORAPAKKAM RADIAL ROAD",
+    "type": "2, 3, 4",
+    "size": "1001 - 2735",
+    "approvals": "RERA",
+    "handover": "2029",
+    "price": "Rs.1.20 Cr-Rs3.50CrS.",
+    "category": "ongoing"
+  },
+  {
+    "name": "PURAVANKARA WINDERMERE",
+    "location": "PALLIKARANAI",
+    "type": "1,2,3",
+    "size": "620-1490",
+    "approvals": "RERA",
+    "handover": "2027,2028 DEC",
+    "price": "Rs.50 L-Rs.1.11 Cr",
+    "category": "ongoing"
+  },
+  {
+    "name": "PROVIDENT HOUSING BAYSCAPE",
+    "location": "KELAMBAKKAM",
+    "type": "2,3 NHK",
+    "size": "993- 1424",
+    "approvals": "RERA",
+    "handover": "2027",
+    "price": "Rs.69L-Rs.1 Cr",
+    "category": "ongoing"
+  },
+  {
+    "name": "PURAVANKARA SOMERSET",
+    "location": "GUINDY",
+    "type": "3,4, PENT HOUSE",
+    "size": "1894 - 2651",
+    "approvals": "RERA",
+    "handover": "RTM",
+    "price": "Rs.4.4Crs- Rs.6.6Crs",
+    "category": "ongoing"
+  },
+  {
+    "name": "PURAVANKARA SOUKHYAM",
+    "location": "540 -4840 SQFT",
+    "type": "Rs.4500/- SQFT",
+    "size": "RTB",
+    "approvals": "",
+    "handover": "",
+    "price": "CMDA,RERA",
+    "category": "ongoing"
+  },
+  {
+    "name": "RADIANCE EVER BLOOM",
+    "location": "NOOMBAL",
+    "type": "2,2.5, 3 4",
+    "size": "954 - 2127",
+    "approvals": "CMDA",
+    "handover": "PRE LAUNCH",
+    "price": "Rs.84L- Rs.1.9 Crs",
+    "category": "new-launch"
+  },
+  {
+    "name": "RADIANCE ETERNITY",
+    "location": "THORAPAKKAM",
+    "type": "2, 3, 4",
+    "size": "1356-2711",
+    "approvals": "CMDA",
+    "handover": "2028",
+    "price": "Rs.1.69Cr-Rs.3.47Crs",
+    "category": "ongoing"
+  },
+  {
+    "name": "RADIANCE SOLITAIRE",
+    "location": "MADHAVARAM",
+    "type": "2,3,4 PENT HOUSE",
+    "size": "658-2938",
+    "approvals": "CMDA",
+    "handover": "2028",
+    "price": "Rs.60L- Rs.2.38 Crs",
+    "category": "ongoing"
+  },
+  {
+    "name": "RADIANCE EDGEWOOD",
+    "location": "2179- 3506 SQFT",
+    "type": "Rs.2.42 Crs- Rs.3.92 Crs",
+    "size": "2028",
+    "approvals": "",
+    "handover": "",
+    "price": "RERA",
+    "category": "ongoing"
+  },
+  {
+    "name": "STEPSTONE VIRAAM",
+    "location": "KATTUPAKKAM",
+    "type": "2,3",
+    "size": "915 - 1187",
+    "approvals": "RERA",
+    "handover": "2027",
+    "price": "Rs.82 Lakhs onwards",
+    "category": "ongoing"
+  },
+  {
+    "name": "STEPSTONE VIVAA",
+    "location": "MOGAPPAIR",
+    "type": "3, 4",
+    "size": "1600- 2200",
+    "approvals": "",
+    "handover": "2028",
+    "price": "Rs.1.8 Cr onwards",
+    "category": "ongoing"
+  },
+  {
+    "name": "STEPSTONE BLUE BEACH SRINIVAS PALMS",
+    "location": "875 - 5924",
+    "type": "Rs.40 Lakhs onwards",
+    "size": "RTB",
+    "approvals": "",
+    "handover": "",
+    "price": "DTCP RERA",
+    "category": "ongoing"
+  },
+  {
+    "name": "STEPSTONE SECRET AURA",
+    "location": "650 - 3400",
+    "type": "Rs.24 Lakhs onwards",
+    "size": "RTB",
+    "approvals": "",
+    "handover": "",
+    "price": "DTCP RERA",
+    "category": "ongoing"
+  },
+  {
+    "name": "STEPSTONE SP KOIL",
+    "location": "1128 -2185",
+    "type": "Rs.37 Lakhs onwards",
+    "size": "RTB",
+    "approvals": "",
+    "handover": "",
+    "price": "DTCP & RERA",
+    "category": "ongoing"
+  },
+  {
+    "name": "STEPSTONE AERO SQUARE",
+    "location": "564 - 1200 SQ FT",
+    "type": "Rs.15 Lakhs onwards",
+    "size": "RTB",
+    "approvals": "",
+    "handover": "",
+    "price": "DTCP &RERA",
+    "category": "ongoing"
+  },
+  {
+    "name": "STEPSTONE ONE AAERO PH 3",
+    "location": "600 -2662 SQ FT",
+    "type": "Rs.14 Lakhs onwards",
+    "size": "RTB",
+    "approvals": "",
+    "handover": "",
+    "price": "DTCP &RERA",
+    "category": "ongoing"
+  },
+  {
+    "name": "STEPSTONE VISTA",
+    "location": "1134 -2316",
+    "type": "Rs.1.47 Cr onwards",
+    "size": "RTB",
+    "approvals": "",
+    "handover": "",
+    "price": "CMDA RERA",
+    "category": "ongoing"
+  },
+  {
+    "name": "STEPSTONE AVARTA 2",
+    "location": "986 - 2600",
+    "type": "Rs.24 Lakhs onwards",
+    "size": "NEW LAUNCH",
+    "approvals": "",
+    "handover": "",
+    "price": "CMDA RERA",
+    "category": "ongoing"
+  },
+  {
+    "name": "SOBHA OPPOSITE TO NOVOTEL, ON ROAD APARTMENTS",
+    "location": "SIRUSERI",
+    "type": "1,2,3,4",
+    "size": "665- 2300",
+    "approvals": "PRE-LAUNCH",
+    "handover": "WITHIN 5 YEARS",
+    "price": "RS.12999-Rs.13999",
+    "category": "new-launch"
+  },
+  {
+    "name": "TVS AVALON",
+    "location": "PALLAVARAM - THORAPAKKAM RADIAL ROAD",
+    "type": "2,3,4",
+    "size": "971- 2629",
+    "approvals": "RERA",
+    "handover": "2031",
+    "price": "Rs.1.17 Cr onwards",
+    "category": "ongoing"
+  },
+  {
+    "name": "TVS VERDE VISTA",
+    "location": "PADUR",
+    "type": "2,3,4",
+    "size": "952-2676",
+    "approvals": "DTCP,RERA",
+    "handover": "2028",
+    "price": "Rs.78 Lakhs onwards",
+    "category": "ongoing"
+  },
+  {
+    "name": "TVS SERENE SPRINGS (SENIOR CITIZEN)",
+    "location": "KELAMBAKKAM",
+    "type": "1,2",
+    "size": "959- 1217",
+    "approvals": "DTCP,RERA",
+    "handover": "2029",
+    "price": "Rs.74 Lakhs onwards",
+    "category": "ongoing"
+  },
+  {
+    "name": "TVS LUXOR",
+    "location": "ANNA NAGAR",
+    "type": "2,4",
+    "size": "1467- 3379",
+    "approvals": "RERA",
+    "handover": "RTM",
+    "price": "Rs.3.20 Cr onwards",
+    "category": "ongoing"
+  },
+  {
+    "name": "TRAVENTURE ALTITUDE 9",
+    "location": "KOYEMBEDU",
+    "type": "3",
+    "size": "1435-1988",
+    "approvals": "CMDA,RERA",
+    "handover": "2028",
+    "price": "Rs.2.30Crs-Rs.3.16Crs INCLUDE ALL",
+    "category": "ongoing"
+  },
+  {
+    "name": "TRAVENTURE ATHULYA",
+    "location": "SALIGRAMAM",
+    "type": "3",
+    "size": "1314",
+    "approvals": "CMDA,RERA",
+    "handover": "2027",
+    "price": "Rs.1.75 Crs",
+    "category": "ongoing"
+  },
+  {
+    "name": "TRAVENTURE THARA",
+    "location": "SALIGRAMAM",
+    "type": "3",
+    "size": "1313-1913",
+    "approvals": "CMDA",
+    "handover": "2027",
+    "price": "Rs.1.85 Cr- Rs.1.90 Crs",
+    "category": "ongoing"
+  },
+  {
+    "name": "TRAVENTURE ALTIUS",
+    "location": "ASHOK NAGAR",
+    "type": "2,3",
+    "size": "1070 - 1673",
+    "approvals": "CMDA",
+    "handover": "From Date of Launch it is 24 Months",
+    "price": "RS.1.33Cr- Rs.2.48 Crs",
+    "category": "ongoing"
+  },
+  {
+    "name": "TRAVENTURE PARK MANOR",
+    "location": "VIRUGAMBAKKAM",
+    "type": "3",
+    "size": "1755 - 1859",
+    "approvals": "CMDA",
+    "handover": "2027",
+    "price": "Rs2.33 Cr- Rs.2.57 Crs",
+    "category": "ongoing"
+  },
+  {
+    "name": "TRAVENTURE MISHVA",
+    "location": "PORUR",
+    "type": "3",
+    "size": "1381 & 1430",
+    "approvals": "CMDA",
+    "handover": "2027",
+    "price": "Rs.1.30 Cr- Rs.1.33 Crs",
+    "category": "ongoing"
+  },
+  {
+    "name": "TRAVENTURE DIVINE",
+    "location": "",
+    "type": "3",
+    "size": "1515 - 1625",
+    "approvals": "CMDA",
+    "handover": "2028",
+    "price": "Rs.2.12Cr- Rs.2.28 Crs",
+    "category": "ongoing"
+  },
+  {
+    "name": "TRAVENTURE REGALIA",
+    "location": "AMANJIKARAI",
+    "type": "3",
+    "size": "1791 / 1814",
+    "approvals": "CMDA",
+    "handover": "",
+    "price": "Rs.2.43 Cr -  Rs.2.45 Cr",
+    "category": "ongoing"
+  },
+  {
+    "name": "TRAVENTURE APOORVA",
+    "location": "VIRUGAMBAKKAM",
+    "type": "3",
+    "size": "1426- 1442",
+    "approvals": "CMDA",
+    "handover": "",
+    "price": "Rs.1.57 Cr",
+    "category": "ongoing"
+  },
+  {
+    "name": "TRAVENTURE VRIKSHAM",
+    "location": "SALIGRAMAM",
+    "type": "3",
+    "size": "1730 - 1755",
+    "approvals": "",
+    "handover": "",
+    "price": "Rs.2.38 Cr - Rs.2.39 Cr",
+    "category": "ongoing"
+  }
+]

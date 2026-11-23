@@ -1,112 +1,22 @@
 [
   {
-    "name": "ALAMO BRISTOL",
-    "location": "PADUR OMR",
-    "type": "",
-    "size": "",
-    "approvals": "RERA",
-    "launch": "PRELAUNCH",
-    "handover": "2028",
-    "category": "new-launch"
-  },
-  {
-    "name": "PACIFICA AURUM",
-    "location": "PADUR OMR",
-    "type": "",
-    "size": "",
-    "approvals": "RERA",
-    "launch": "PRELAUNCH",
-    "handover": "PRELAUNCH",
-    "category": "new-launch"
-  },
-  {
-    "name": "GTB RISINGPALMS",
-    "location": "VALARPURAM,POONAMALLEE",
-    "type": "",
-    "size": "",
-    "approvals": "RERA",
-    "launch": "PRELAUNCH",
-    "handover": "2027",
-    "category": "new-launch"
-  },
-  {
-    "name": "RADIANCE EDGEWOOD",
-    "location": "THAZHAMBUR",
-    "type": "",
-    "size": "",
-    "approvals": "RERA",
-    "launch": "",
-    "handover": "2028",
-    "category": "ongoing"
-  },
-  {
-    "name": "DRA INARA",
-    "location": "NAVALUR",
-    "type": "",
-    "size": "",
-    "approvals": "RERA",
-    "launch": "",
-    "handover": "2027",
-    "category": "ongoing"
-  },
-  {
-    "name": "GTB REPUBLIC OF NATURE",
-    "location": "KOVALAM ECR",
-    "type": "",
-    "size": "",
-    "approvals": "DTCP / RERA",
-    "launch": "",
-    "handover": "2027",
-    "category": "ongoing"
-  },
-  {
-    "name": "ARUN EXCELLO TOWN HOUSE",
-    "location": "ORAGADAM",
-    "type": "",
-    "size": "",
-    "approvals": "DTCP / RERA",
-    "launch": "",
-    "handover": "RTM",
-    "category": "ongoing"
-  },
-  {
-    "name": "AMP CRYSTAL MOONLIGHT",
-    "location": "MEDAVAKKAM",
-    "type": "",
-    "size": "",
-    "approvals": "CMDA RERA",
-    "launch": "",
-    "handover": "2026",
-    "category": "ongoing"
-  },
-  {
-    "name": "ADITYARAM PALACE CITY",
-    "location": "AKKARAI PANAIYUR",
-    "type": "",
-    "size": "",
-    "approvals": "CMDA RERA",
-    "launch": "",
-    "handover": "12 MONTHS FROM REG",
-    "category": "ongoing"
-  },
-  {
-    "name": "NU TECH GARDEN OF GAIA",
-    "location": "OMR ECR LINK ROAD",
-    "type": "",
-    "size": "",
-    "approvals": "CMDA RERA",
-    "launch": "",
-    "handover": "2026",
+    "name": "ADITYARAM - PALACE CITY (VILLA)",
+    "location": "AKKARAI,ECR (16 ACRES)",
+    "type": "3 & 4",
+    "size": "1640 - 5846",
+    "approvals": "CMDA & RERA",
+    "handover": "12 - 15 MONTHS & 18 MONTHS",
+    "price": "Rs.17,900/sqft. (Box price Rs.4.5 Cr- Rs.8.5 )",
     "category": "ongoing"
   },
   {
     "name": "SAMEERA HAVEN CREST",
-    "location": "VENGAMBAKKAM VANDALUR KELAMBAKKAM ROAD",
-    "type": "",
-    "size": "",
-    "approvals": "CMDA RERA",
-    "launch": "",
-    "handover": "2026",
+    "location": "VENGAMBAKKAM",
+    "type": "2,3",
+    "size": "600- 1600",
+    "approvals": "CMDA/RERA",
+    "handover": "2027",
+    "price": "Rs.85L- Rs.1.30 Crs",
     "category": "ongoing"
   }
 ]

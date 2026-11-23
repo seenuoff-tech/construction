@@ -14,6 +14,7 @@ export interface Villa {
   approvals?: string;
   handOverDate?: string;
   launchDate?: string;
+  price?: string;
   category?: 'ongoing' | 'new-launch' | 'ready-to-move';
 }
 
@@ -83,6 +84,7 @@ export function getVillas(): Villa[] {
       approvals: meta.approvals || 'Pending',
       handOverDate: meta.handover || 'TBD',
       launchDate: meta.launch || '',
+      price: (meta as any).price || '',
       category: meta.category as 'ongoing' | 'new-launch' | 'ready-to-move'
     };
   });
