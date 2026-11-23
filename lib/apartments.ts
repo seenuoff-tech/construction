@@ -86,7 +86,7 @@ export function getApartments(): Apartment[] {
       sizeRange: meta.size || 'Various Sizes',
       approvals: meta.approvals || 'Pending',
       handOverDate: meta.handover || 'TBD',
-      launchDate: meta.launch || '',
+      launchDate: (meta as any).launch || '',
       price: (meta as any).price || '',
       category: meta.category as 'ongoing' | 'new-launch' | 'ready-to-move'
     };
